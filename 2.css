@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(27, 152, 205);
+}
+
+main{
+    text-align: center;
+}
+.box{
+    border-radius: .3rem;
+    height:20vh;
+    width: 20vh;
+    background-color: rgb(211, 218, 171);
+    border: 2px solid black;
+    font-size: 7rem;
+    
+}
+
+.container{
+    display: grid;
+    height:63vh;
+    width:63vh;
+    grid-template-columns: repeat(3,auto);
+    
+}
+
+.buttons{
+    margin: 3rem;
+}
+
+.buttons button{
+    height: 5vh;
+    width: 15vh;
+    background-color: rgb(50, 176, 50);
+    border: 2px solid black;
+    border-radius: .3rem;
+    font-weight: bold;
+}
